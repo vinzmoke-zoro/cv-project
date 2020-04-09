@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #3b3939;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.container{
+    background-color: rgb(0, 0, 0);
+    max-width: 1000px;
+    color: white;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+#x{
+    width:150px;
+    height:150px;
+    border:5px rgb(131, 128, 128) solid;
+    border-radius: 5px;
+    float: left;
+}
+.a{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: white ;
+}
+.b{
+    float: right;
+    padding: 30px;
+}
+.b a{
+text-decoration: none;
+color: white;
+font-weight: lighter;
+}
+.b a:hover{
+    text-decoration: overline underline;
+    color: red;
+}
+.clear{
+    clear: both;
+}
+hr{
+    border: solid white 1px;
+    width: 100%;
+    margin: 20px auto;
+   
+}
+
+.con{
+margin-bottom: 30px;
+}
+.ldiv{
+width: 30%;
+float: left;
+}
+.rdiv{
+width: 70%;
+float: left;
+}
+.chr{
+    border:solid white 1px;
+    border-bottom: none;
+    width: 100%;
+    margin:20px auto;
+}
+
+.s{
+   
+    background-color: #000000;
+    color: rgb(97, 255, 97);
+    margin: auto;
+    padding-left: 380px;
+    word-spacing: 12px;
+}
+.s a{
+    color: rgb(97, 255, 97);
+    text-decoration: none;
+   
+}
+p{
+    color:rgb(97, 255, 97);
+    padding-left: 380px;
+}
+.s a:hover{
+    text-decoration: underline;
+    color: darkgreen;
+}
